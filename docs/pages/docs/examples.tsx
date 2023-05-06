@@ -251,12 +251,32 @@ export default function Docs() {
 
         <Well
           grad="grad2"
-          heading="Next.js + Keystone"
-          href="https://github.com/keystonejs/keystone/blob/main/examples/example-framework-nextjs-app-directory"
+          heading="Next.js + Keystone - App Directory"
+          href="https://github.com/keystonejs/keystone/tree/main/examples/framework-nextjs-app-directory"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Shows you how to use Keystone as a data engine within Next.js applications.
+          Shows you how to use Keystone as a data engine within Next.js applications  using the app directory.
+        </Well>
+
+                <Well
+          grad="grad2"
+          heading="Next.js + Keystone - Pages Directory"
+          href="https://github.com/keystonejs/keystone/tree/main/examples/framework-nextjs-pages-directory"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Shows you how to use Keystone as a data engine within Next.js applications using the pages directory.
+        </Well>
+
+                <Well
+          grad="grad2"
+          heading="Next.js + Keystone Two Servers"
+          href="https://github.com/keystonejs/keystone/tree/main/examples/framework-nextjs-two-servers"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Shows you how to use Keystone as a backend API server with a frontend Next.js server.
         </Well>
       </div>
 
